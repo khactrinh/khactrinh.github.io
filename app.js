@@ -26,6 +26,12 @@ function getval(sel)
 	if (sel.value == 4){
 		var url = 'https://sra-qa3.crm11.dynamics.com/main.aspx?etc=112&extraqs=&histKey=590474099&id=%7b54b44a94-6f31-e811-811c-70106faa6a31%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cMyWork%7cSubArea_Case#828524900';
 	}
+	if (sel.value == 5){
+		var url = 'https://sra-qa3.crm11.dynamics.com/main.aspx?etc=10300&extraqs=&histKey=163481099&id=%7b398C9937-5FD3-E711-810E-70106FAA6A31%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cGoals%7csra_ref_applicationtype';
+	}
+	if (sel.value == 6){
+		var url = 'https://sra-qa3.crm11.dynamics.com/main.aspx?etc=10352&extraqs=&histKey=5665477&id=%7b919807B0-599B-E711-8107-70106FAA6A11%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cGoals%7csra_ref_datadictionary#836244875';
+	}
 	
 	
 	if (sel.value == 21){
@@ -40,6 +46,12 @@ function getval(sel)
 	}
 	if (sel.value == 24){
 		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=112&extraqs=&histKey=332466784&id=%7b1A64D1F5-75F0-E711-810C-70106FAA2611%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cMyWork%7cSubArea_Case';
+	}
+	if (sel.value == 25){
+		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=10301&extraqs=&histKey=693207748&id=%7bE83A068B-8AEF-E711-810C-70106FAA2611%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cGoals%7csra_ref_applicationtype';
+	}
+	if (sel.value == 26){
+		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=10325&extraqs=&histKey=544782694&id=%7bC85FC9A8-5521-E811-A87B-002248005A98%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cGoals%7csra_ref_datadictionary';
 	}
 	
 	$('#url').val(url);
