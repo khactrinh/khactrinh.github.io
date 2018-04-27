@@ -35,6 +35,15 @@ function getval(sel)
 	if (sel.value == 7){
 		var url = 'https://sra-qa3.crm11.dynamics.com/main.aspx?etc=1&extraqs=&histKey=656489862&id=%7b8CBAB416-9F0C-E811-8116-70106FAA6A31%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cCustomers%7cnav_accts#585507393';
 	}
+	if (sel.value == 8){
+		var url = 'https://sra-qa3.crm11.dynamics.com/main.aspx?etc=10385&extraqs=&histKey=183296628&id=%7b3D9AE703-B9F6-E711-8119-70106FAA6A11%7d&pagetype=entityrecord&sitemappath=SFA%7cSFA%7csra_employment#465073393';
+	}
+	if (sel.value == 9){
+		var url = 'https://sra-qa3.crm11.dynamics.com/main.aspx?etc=10387&extraqs=&histKey=799044089&id=%7b4CB34CD5-83FA-E711-8112-70106FAAF8C1%7d&pagetype=entityrecord&sitemappath=SFA%7cSFA%7csra_post#535523046';
+	}
+	if (sel.value == 10){
+		var url = 'https://sra-qa3.crm11.dynamics.com/main.aspx?etc=10390&extraqs=&histKey=577928430&id=%7b4D684E3D-CF46-E811-8128-70106FAA6A11%7d&pagetype=entityrecord&sitemappath=SFA%7cSFA%7csra_role#785065176';
+	}
 	
 	
 	if (sel.value == 21){
@@ -58,6 +67,15 @@ function getval(sel)
 	}
 	if (sel.value == 27){
 		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=1&extraqs=&histKey=697718981&id=%7b49dd99b8-2c36-e811-a886-002248005489%7d&pagetype=entityrecord&sitemappath=SFA%7cCustomers%7cnav_accts#129280386';
+	}
+	if (sel.value == 28){
+		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=10386&extraqs=&histKey=907799398&id=%7bE0B8558C-A2EF-E711-810C-70106FAA2611%7d&pagetype=entityrecord&sitemappath=SFA%7cMA%7csra_employment#801514403';
+	}
+	if (sel.value == 29){
+		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=10388&extraqs=&histKey=668690879&id=%7bEB224283-28F4-E711-810C-70106FAA2611%7d&pagetype=entityrecord&sitemappath=SFA%7cMA%7csra_post#360254194';
+	}
+	if (sel.value == 210){
+		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=10387&extraqs=&histKey=980039169&id=%7b62C4A0A4-6549-E811-A864-00224800492F%7d&pagetype=entityrecord&sitemappath=SFA%7cMA%7csra_role#694529348';
 	}
 	
 	$('#url').val(url);
