@@ -57,7 +57,7 @@ function getval(sel)
 		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=10325&extraqs=&histKey=544782694&id=%7bC85FC9A8-5521-E811-A87B-002248005A98%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cGoals%7csra_ref_datadictionary';
 	}
 	if (sel.value == 27){
-		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=1&extraqs=&histKey=735547919&id=%7b6B97D055-AE39-E811-A886-002248005489%7d&newWindow=true&pagetype=entityrecord&sitemappath=SFA%7cCustomers%7cnav_accts#807629763';
+		var url = 'https://sra-sea-dev.crm11.dynamics.com/main.aspx?etc=1&extraqs=&histKey=697718981&id=%7b49dd99b8-2c36-e811-a886-002248005489%7d&pagetype=entityrecord&sitemappath=SFA%7cCustomers%7cnav_accts#129280386';
 	}
 	
 	$('#url').val(url);
